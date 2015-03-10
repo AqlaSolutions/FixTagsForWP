@@ -23,6 +23,7 @@ namespace FixTagsForWP
         {
             Visible = false;
             Size = new Size(0, 0);
+            WMP.settings.volume = 0;
         }
 
         public void RestartTest(string filename)
